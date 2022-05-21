@@ -29,7 +29,7 @@ const PageContent = ({ slideNum, handleSlideNum }) => {
       <p className="page-content__p">{tabs[slideNum].p}</p>
 
       <div className="page-content__shop-now-group">
-        <div className="page-content__shop-now">Shop Now</div>
+        <div className="page-content__shop-now">Shop</div>
         <div className="page-content__shop-now-arrow"></div>
       </div>
     </div>
