@@ -1,0 +1,71 @@
+.hero-image {
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .hero-image__control-button-group {
+    position: relative;
+    display: flex;
+    margin-top: -75px;
+    margin-left: auto;
+    width: 110px;
+    height: 55px;
+    background-color: #544848;
+  }
+  
+  .hero-image__previous-button,
+  .hero-image__next-button {
+    color: var(--white);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .hero-image__previous-button {
+    background-image: url("../../images/icon-left.svg");
+  }
+  
+  .hero-image__next-button {
+    background-image: url("../../images/icon-right.svg");
+  }
+  
+  .hero-image__previous-button:hover,
+  .hero-image__next-button:hover {
+    background-color: var(--very-dark-gray);
+    border-radius: 50%;
+  }
+
+  @media (min-width: 768px) {
+    .hero-image__control-button-group {
+      margin-left: 600px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .hero-image {
+      position: absolute;
+      width: 50%;
+      height: 535px;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .hero-image__control-button-group {
+      position: relative;
+      top: -70px;
+      right: -280px;
+      width: 160px;
+      height: 80px;
+      z-index: 20;
+    }
+  }

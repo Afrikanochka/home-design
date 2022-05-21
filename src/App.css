@@ -1,0 +1,22 @@
+.App {
+    margin: 0 auto;
+    width: 375px;
+  }
+
+  @media (min-width: 768px) {
+     .App {
+      width: 768px;
+     }
+  }
+  
+  @media (min-width: 1280px) {
+    .App {
+      width: 1280px;
+    }
+  
+    .app__top {
+      display: flex;
+      flex-direction: row;
+      /* padding-bottom: 100px; */
+    }
+  }
